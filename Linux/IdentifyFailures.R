@@ -1,3 +1,10 @@
+path <- Sys.getenv(c("R_LIB_PATH"))
+lib_path <- c(path,"packrat/packrat_source/")
+lib_path <- paste(lib_path,collapse="")
+
+.libPaths(lib_path)
+
+
 packrat::on()
 
 print("BEGIN IdentifyFailures.R")
