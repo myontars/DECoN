@@ -6,5 +6,4 @@ sudo mkdir -p /opt/rlib
 sudo chown risikiyim.risikiyim /opt/rlib
 export R_LIBS_USER=/opt/rlib
 export R_LIBS_SITE=/opt/rlib
-
-
+export R_LIB_PATH=/opt/rlib/
